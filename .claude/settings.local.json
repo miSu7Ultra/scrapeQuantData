@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import requests; print\\('requests ok', requests.__version__\\)\")",
+      "Bash(python3 *)",
+      "Bash(git -C /Users/pengpai/Desktop/python status)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git config *)",
+      "Bash(git commit *)",
+      "Bash(gh auth *)",
+      "Bash(git push *)",
+      "Bash(git fetch *)",
+      "Bash(git ls-tree *)",
+      "Bash(git checkout *)",
+      "Bash(git branch *)"
+    ]
+  }
+}
